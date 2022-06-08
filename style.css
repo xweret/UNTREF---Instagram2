@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #262626;
+}
+
+.card-info {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.perfilimg {
+    border-radius: 50%;
+
+}
+
+.card-footer-data {
+    width: 500px;
+
+}
+
+.iconos {
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    width: 500px;
+    background-color: #fefffe;
+}
+
+.card-footer-data {
+    background-color: #fefffe;
+}
+
+.megusta {
+    margin: .5rem 0 .5rem;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.description {
+    font-weight: 500;
+}
+
+.description span {
+    font-weight: 600;
+}
+
+.date {
+    font-weight: 200;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'pacifico';
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: 3rem;
+    align-items: center;
+    background-color: #FEFFFE;
+    border-bottom: 1px solid #26262614;
+}
+
+#camara {
+    font-size: 1.5rem;
+    padding-top: 12px;
+}
+
+
+
+
+
+.cardmain {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    border: 1px solid #26262614;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: #FEFFFE;
+    border-radius: 3px;
+}
+
+/* contenedores */
+main {
+
+    padding: 4rem 2rem 4rem 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+}
+
+.cards-container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax (500px, 1fr));
+    column-gap: 2rem;
+    justify-content: center;
+}
